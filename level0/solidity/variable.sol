@@ -8,6 +8,38 @@ pragma solidity 0.8.20;
 
 
 contract Variable {
-    
+    uint storeData;//状态变量
+
+    constructor() public {
+        storeData = 9;
+    }
+
+    function getResult() public view  returns (uint){
+        uint a = 1;//局部变量
+        address b;
+        uint c = 8;
+        return  a + c; 
+    }
+
+    // block.blockhash;
+    // block.coinbase;
+    // block.difficulty;
+    // block.gaslimit;
+    // block.number;
+    // block.timestamp;
+    // msg.data;
+    // msg.sender;
+    // msg.sig;
+    // msg.value;
+    // now;
+    // tx.gas;
+    // tx.origin;
+
+   //变量的使用规范
+
+   // 1，不应该不用关键词作为变量名，比如now,break,for,if,bool,block,blockhash;
+   // 2,不应该以数字开通0-9,123test,无效变量名，_123test,局部变量。
+   // 3，区分大小写，Name 和name，是两个不同的变量。
+
     
 }
