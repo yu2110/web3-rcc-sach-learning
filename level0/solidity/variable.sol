@@ -7,20 +7,20 @@ pragma solidity 0.8.20;
 //全局变量:存在全局命名空间的变量，可以获取区块链的相关相关信息，比如区块链高度
 
 
-contract Variable {
-    uint storeData;//状态变量
+contract Variables {
+   
+   //状态变量
+    string public text = "welcome";
+    
+    uint256 public  num = 456;
 
-    constructor() public {
-        storeData = 9;
+    function doWelcoming() public {
+        uint256 i = 789; //局部变量
+        uint256 timestamp = block.timestamp; //全局变量
+        address sender = msg.sender;
     }
 
-    function getResult() public view  returns (uint){
-        uint a = 1;//局部变量
-        address b;
-        uint c = 8;
-        return  a + c; 
-    }
-
+   
     // block.blockhash;
     // block.coinbase;
     // block.difficulty;
