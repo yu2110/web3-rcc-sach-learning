@@ -6,6 +6,30 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "currentStatus",
 				"outputs": [
@@ -16,6 +40,30 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "divide",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -42,6 +90,30 @@
 				"name": "setStatus",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "shift",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "z",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -80,10 +152,10 @@
 	},
 	"sources": {
 		"level0/solidity/value.sol": {
-			"keccak256": "0x08709cfa644a981fb12e500dd3d31d8ae8510e7a9c35786ed0839e8b7aad3004",
+			"keccak256": "0xc4adbe288d8e63777fa5737c8cc8c4ed852d562f346143b6a8db8b825dec4c30",
 			"urls": [
-				"bzz-raw://579956d1e66182a392b43c7cd6373b0966309f1e3ca5e88b706cc3d18d5011e8",
-				"dweb:/ipfs/QmaDx2LKbUYZnYoVSLgRweJdvRehdxXwgZrZ6SPQynPFze"
+				"bzz-raw://2fccf2a21bd6d8bd72c3717973a5c002d8c0a6d4078bd59ab36dded9229943f9",
+				"dweb:/ipfs/QmVPaoboiFtAa1cydUvD6xSmh1BYf1Pu589HZwSxzD8qKy"
 			]
 		}
 	},

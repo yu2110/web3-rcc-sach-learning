@@ -26,6 +26,20 @@ contract ValueType{
     int8 signedInt = 32; // -2^8 - 1 -------- 2^8 - 1  (2*2*2*2*2*2*2*2=256)
     uint8 uInt = 32;   // 0 ------- 2^8 -1 
     
+
+    function add(uint x, uint y) public  pure  returns (uint z){
+        z = x + y;
+    }
+    
+    function divide(uint x, uint y) public pure returns (uint z){
+        z = x / y;
+    }
+
+    function shift(int x, uint y) public pure returns (int z){
+        z = x >> y;
+    }
+
+
     int256 fixedPoint = 1e18; //模拟定长浮点型
     //定长字节数据
     bytes1 singleByte = 0x12;
@@ -50,6 +64,6 @@ contract ValueType{
     //地址类型，存储以太坊地址，特殊字符串类型，20字符
     address owner = msg.sender;
     //地址常量
-    address constant fixedAddress = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+    // address constant fixedAddress = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
 
 }
