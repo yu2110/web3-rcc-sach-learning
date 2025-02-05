@@ -63,7 +63,27 @@ contract ValueType{
     }
     //地址类型，存储以太坊地址，特殊字符串类型，20字符
     address owner = msg.sender;
+    uint256 balance = owner.balance;
+
+     address payable recipient;
+    //  recipient.transfer(1 ether);
+    //  bool success = recipient.send(1 ether);
+    //  (bool success,) = recipient.call{value: 1 ether}("");
+
+
     //地址常量
     // address constant fixedAddress = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+
+    // 定义一个 address 类型的变量
+    address public myAddress1 = 0x1234567890123456789012345678901234567890;
+    address myAddress2 = msg.sender;  // 当前合约调用者的地址
+
+    // if (myAddress1 == myAddress2) {
+    // // 两个地址相等时的操作
+    // } else {
+    // // 两个地址不等时的操作
+    // }
+
+    address payable payableAddress = payable(myAddress1);  // 将 address 转换为 address payable
 
 }

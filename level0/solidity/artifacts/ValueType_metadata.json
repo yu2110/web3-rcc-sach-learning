@@ -80,6 +80,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "myAddress1",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "enum ValueType.Status",
@@ -152,10 +165,10 @@
 	},
 	"sources": {
 		"level0/solidity/value.sol": {
-			"keccak256": "0xc4adbe288d8e63777fa5737c8cc8c4ed852d562f346143b6a8db8b825dec4c30",
+			"keccak256": "0x6e78cb10f85002188d81e15851a7ff3598d0ed2a7c0a7436b76a6f0fd0584d6c",
 			"urls": [
-				"bzz-raw://2fccf2a21bd6d8bd72c3717973a5c002d8c0a6d4078bd59ab36dded9229943f9",
-				"dweb:/ipfs/QmVPaoboiFtAa1cydUvD6xSmh1BYf1Pu589HZwSxzD8qKy"
+				"bzz-raw://c7dbb67a3d030455f20b77882cada61d92b7f871d82ce220100798b8838d7bf7",
+				"dweb:/ipfs/QmedpvFvzpYhC6jipjdmYtkYfGYUe2S7vXdb4X14ztXQJQ"
 			]
 		}
 	},
