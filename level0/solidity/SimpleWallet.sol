@@ -17,20 +17,26 @@ pragma solidity 0.8.20;
 */
 
 contract SimpleWallet{
+
+    mapping (address => uint256) public whiteList;
     
 
-    function deposit (uint256 amount) public  returns (bool) {
-
+    //存款
+    function deposit () public   payable {
+      whiteList[msg.sender] += msg.value;
     }
 
-    function withdraw () public  returns (uint256 amount) {
-
+    //收回
+    function withdraw (uint256 amount) public   {
+        require(whiteList[msg.sender] >= amount,"Insufficient balance.");
+        whiteList[msg.sender] -= amount;
+        payable (msg.sender).transfer(amount);
     }
 
-    function balance () public  returns (uint256 amount) {
-
+    //查询余额
+    function balance () public  view  returns (uint256) {
+          return whiteList[msg.sender];
     }
-
 
 }
 

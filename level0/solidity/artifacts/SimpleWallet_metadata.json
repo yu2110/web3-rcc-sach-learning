@@ -11,11 +11,37 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "whiteList",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -26,27 +52,8 @@
 						"type": "uint256"
 					}
 				],
-				"name": "deposit",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "withdraw",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -80,11 +87,11 @@
 	},
 	"sources": {
 		"level0/solidity/SimpleWallet.sol": {
-			"keccak256": "0x662edcad26d6183329185076831003c6a2102e2b317eeddcc03a40b3de77b953",
+			"keccak256": "0x201c4879de9afb451b9ddf338cc83f8dede876a596b27381662620a00e42a4b9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e5005040cad76685b7a4e7a0c164cc025c4834cca13b435a726d4cd6b6ad51c0",
-				"dweb:/ipfs/QmfWcT2Jf8KBCaot1zbNQADgXd54tw5gy8RBT9dHkrNQBJ"
+				"bzz-raw://d68f45f842712b775ece4989f7e7a3f63605390273fd5e56d555dea6b904f63a",
+				"dweb:/ipfs/QmehXSHy4SM5WSw6PgZnXkFyztkV9c2k3iEaEZCHJGg9yU"
 			]
 		}
 	},
