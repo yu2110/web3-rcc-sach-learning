@@ -165,10 +165,10 @@
 	},
 	"sources": {
 		"level0/solidity/value.sol": {
-			"keccak256": "0x6e78cb10f85002188d81e15851a7ff3598d0ed2a7c0a7436b76a6f0fd0584d6c",
+			"keccak256": "0x19172b53cbd10f77d574c161503fc6d4bf9f43088d1782bb68b05c0a855b9c23",
 			"urls": [
-				"bzz-raw://c7dbb67a3d030455f20b77882cada61d92b7f871d82ce220100798b8838d7bf7",
-				"dweb:/ipfs/QmedpvFvzpYhC6jipjdmYtkYfGYUe2S7vXdb4X14ztXQJQ"
+				"bzz-raw://c745740084961e433456253a0a980b2a3177e48f8578c693076f220f2b25aab0",
+				"dweb:/ipfs/QmPjsUwEhTpekeSwNd61p9TDGAW5bgjPMSJx9URpgiQD1J"
 			]
 		}
 	},
