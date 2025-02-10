@@ -25,6 +25,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "executeStoredFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getSelectorDouble",
 				"outputs": [
@@ -105,6 +124,32 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "selector",
+						"type": "bytes4"
+					}
+				],
+				"name": "storeSelector",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "storedSelector",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -135,10 +180,10 @@
 	},
 	"sources": {
 		"level0/solidity/FunctionSelectorExample.sol": {
-			"keccak256": "0x7ff16b82aca284c1761381b21101c8c5f110d4b589bf95d745883b9f6dbc4204",
+			"keccak256": "0xb87b51914ee573174103895baccdcd0458ed931d2849da82383658d2330c8e14",
 			"urls": [
-				"bzz-raw://7a979ca73ef64ac3b596e04ab4df842df18ca0cb76ebfebba81e410e63850716",
-				"dweb:/ipfs/QmYHp9F7B2mJmahQP6kTPk3jLJYGNTEXBej6w5s3mL2Dof"
+				"bzz-raw://aa5146219e84d06232b6523c70546edb26b2ed6ddbe2e7ca9a4d1c3790211546",
+				"dweb:/ipfs/QmZdAzhKhhWyeu6H5G1ryxRNd8LNmYFzLEyXyqQsaaLKnw"
 			]
 		}
 	},

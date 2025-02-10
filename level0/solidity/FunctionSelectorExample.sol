@@ -33,5 +33,19 @@ contract FunctionSelectorExample{
         z = abi.decode(data, (uint));
     }
 
+     bytes4 public  storedSelector;
+
+    function storeSelector(bytes4 selector) public  {
+       storedSelector = selector;
+    }
+
+    function executeStoredFunction(uint x) external  returns (uint z){
+        bytes4 selector = storedSelector;
+        require(bytes4(0) != selector, "sSelector not set");
+        (bool success, bytes memory data) = address(this).call(abi.encodeWithSelector(selector, x));
+        require(success, "Function call failed");
+        z = abi.decode(data, (uint));
+    }
+
 
 }
