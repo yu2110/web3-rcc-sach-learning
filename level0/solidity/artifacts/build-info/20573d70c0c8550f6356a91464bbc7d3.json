@@ -1,5 +1,5 @@
 {
-	"id": "b4d4ab83eaced5cf0b78204b453f5405",
+	"id": "20573d70c0c8550f6356a91464bbc7d3",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.20",
 	"solcLongVersion": "0.8.20+commit.a1b79de6",
@@ -7,7 +7,7 @@
 		"language": "Solidity",
 		"sources": {
 			"level0/solidity/StructDeclaration.sol": {
-				"content": "pragma solidity ^0.8.20;\n\nstruct Todo {\n    string text;\n    bool completed;\n}"
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.20;\n\nstruct Todo {\n    string text;\n    bool completed;\n}"
 			}
 		},
 		"settings": {
@@ -39,21 +39,6 @@
 		}
 	},
 	"output": {
-		"errors": [
-			{
-				"component": "general",
-				"errorCode": "1878",
-				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> level0/solidity/StructDeclaration.sol\n\n",
-				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
-				"severity": "warning",
-				"sourceLocation": {
-					"end": -1,
-					"file": "level0/solidity/StructDeclaration.sol",
-					"start": -1
-				},
-				"type": "Warning"
-			}
-		],
 		"sources": {
 			"level0/solidity/StructDeclaration.sol": {
 				"ast": {
@@ -64,6 +49,7 @@
 						]
 					},
 					"id": 7,
+					"license": "MIT",
 					"nodeType": "SourceUnit",
 					"nodes": [
 						{
@@ -75,7 +61,7 @@
 								".20"
 							],
 							"nodeType": "PragmaDirective",
-							"src": "0:24:0"
+							"src": "32:24:0"
 						},
 						{
 							"canonicalName": "Todo",
@@ -86,10 +72,10 @@
 									"id": 3,
 									"mutability": "mutable",
 									"name": "text",
-									"nameLocation": "51:4:0",
+									"nameLocation": "83:4:0",
 									"nodeType": "VariableDeclaration",
 									"scope": 6,
-									"src": "44:11:0",
+									"src": "76:11:0",
 									"stateVariable": false,
 									"storageLocation": "default",
 									"typeDescriptions": {
@@ -100,7 +86,7 @@
 										"id": 2,
 										"name": "string",
 										"nodeType": "ElementaryTypeName",
-										"src": "44:6:0",
+										"src": "76:6:0",
 										"typeDescriptions": {
 											"typeIdentifier": "t_string_storage_ptr",
 											"typeString": "string"
@@ -113,10 +99,10 @@
 									"id": 5,
 									"mutability": "mutable",
 									"name": "completed",
-									"nameLocation": "66:9:0",
+									"nameLocation": "98:9:0",
 									"nodeType": "VariableDeclaration",
 									"scope": 6,
-									"src": "61:14:0",
+									"src": "93:14:0",
 									"stateVariable": false,
 									"storageLocation": "default",
 									"typeDescriptions": {
@@ -127,7 +113,7 @@
 										"id": 4,
 										"name": "bool",
 										"nodeType": "ElementaryTypeName",
-										"src": "61:4:0",
+										"src": "93:4:0",
 										"typeDescriptions": {
 											"typeIdentifier": "t_bool",
 											"typeString": "bool"
@@ -137,14 +123,14 @@
 								}
 							],
 							"name": "Todo",
-							"nameLocation": "33:4:0",
+							"nameLocation": "65:4:0",
 							"nodeType": "StructDefinition",
 							"scope": 7,
-							"src": "26:52:0",
+							"src": "58:52:0",
 							"visibility": "public"
 						}
 					],
-					"src": "0:78:0"
+					"src": "32:78:0"
 				},
 				"id": 0
 			}

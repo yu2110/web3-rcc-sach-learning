@@ -180,10 +180,11 @@
 	},
 	"sources": {
 		"level0/solidity/FunctionSelectorExample.sol": {
-			"keccak256": "0xb87b51914ee573174103895baccdcd0458ed931d2849da82383658d2330c8e14",
+			"keccak256": "0xa807196e653b691f924221b6960f43586134b76c26cd02b8ed2cfb30943b2670",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://aa5146219e84d06232b6523c70546edb26b2ed6ddbe2e7ca9a4d1c3790211546",
-				"dweb:/ipfs/QmZdAzhKhhWyeu6H5G1ryxRNd8LNmYFzLEyXyqQsaaLKnw"
+				"bzz-raw://0c6eb89e9054b48dd4a7f495b88b8a305946f305a8615331d2f41dea60137fa7",
+				"dweb:/ipfs/QmP5TJopQWczegdUXeedV74SxnNxUFxkf22p3HruLCXdi5"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -60,7 +60,7 @@
 		"compilationTarget": {
 			"level0/solidity/ArrayRemoveByShifting.sol": "ArrayRemoveByShifting"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -73,10 +73,11 @@
 	},
 	"sources": {
 		"level0/solidity/ArrayRemoveByShifting.sol": {
-			"keccak256": "0x313adaf3befb2230f2f7abb764fbe8ce1c2429f583882b321b1ffff85534b821",
+			"keccak256": "0x66fe7da80df35d67ba5a97bd538c01eb74bd2b5573d4dae79d35b6d8b5385ac5",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb0290659dd8f0c86d4b8e37d7614dbd102ed4c3606076e27bb06c2038209b17",
-				"dweb:/ipfs/QmdWqaLX8mBxjLVgQVS5UtfrWxyAdM77beLEZYwphYjL4A"
+				"bzz-raw://7940d4088727878049e170af995a21e77a4e16387e39af30082bbe1e8bb8d7fb",
+				"dweb:/ipfs/QmVMsV6M1P9HRQ7gXayiKQK2hw4Fqn1ooTUAet59f9wrPF"
 			]
 		}
 	},

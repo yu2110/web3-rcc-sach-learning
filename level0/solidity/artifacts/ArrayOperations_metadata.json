@@ -86,10 +86,11 @@
 	},
 	"sources": {
 		"level0/solidity/ArrayExample.sol": {
-			"keccak256": "0xa1ff545a3d12acb8e60f23118735ab1c247a9ba35b688c9719fcd92af9641cac",
+			"keccak256": "0x08edb089aa573d74c6934ca927fdda555182dce68d43f9ee7ffd34921e6350d6",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://ee5b267a2c61b49ce74817c25f97ffb914a3243afb1a4f595d62a030abc337b6",
-				"dweb:/ipfs/QmeEXHteRkgSTzjof8xvjSh2voZyrh9SbuC8oTgXHZ2JPM"
+				"bzz-raw://b806bee1c68361679dee5d29fb8a34e7a01ce3e6e761a90c0f11781b88aa3f56",
+				"dweb:/ipfs/QmWSL6hzokJXH3e53fD2mNKeJqZPAZRFVhrUiQacx1TmDg"
 			]
 		}
 	},

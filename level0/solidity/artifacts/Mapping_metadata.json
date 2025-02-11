@@ -104,10 +104,11 @@
 	},
 	"sources": {
 		"level0/solidity/Mapping.sol": {
-			"keccak256": "0x8cf99d4ef62ac6f47f9201d3121cf6f083597472510dc90f2b37fd2d57bee61a",
+			"keccak256": "0xb688a5fc15945803a5b56767708ce781f04ab2651c4c876a1b19a262413f6e01",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://74932a5461b591161bcedc6a05341a2b45cefee0e94152fc0c6eda1dceeab369",
-				"dweb:/ipfs/QmR5kAAGLBBXHgF2k6w4ghL4qzMD3ZgPDpjBa5WKgKRh3y"
+				"bzz-raw://37dbf5d7fbc8ad504c54ba0f067a608b1b13e68e69cfe5c750fd1cb50431e821",
+				"dweb:/ipfs/QmcceFC6DwbSaNck4RYQmpnGbRAcCBuL5hoLmktoEH2Jij"
 			]
 		}
 	},

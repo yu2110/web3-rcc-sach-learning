@@ -12,7 +12,7 @@
 地址类型
 地址常量*/
 //引用类型
-
+// SPDX-License-Identifier: MIT
 pragma solidity 0.8.20;
 
 contract ValueType{

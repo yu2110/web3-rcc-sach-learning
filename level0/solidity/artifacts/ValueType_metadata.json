@@ -165,10 +165,11 @@
 	},
 	"sources": {
 		"level0/solidity/value.sol": {
-			"keccak256": "0x19172b53cbd10f77d574c161503fc6d4bf9f43088d1782bb68b05c0a855b9c23",
+			"keccak256": "0xe05507a6c7255eb569e29097024ef54b5d70a1ba71f3f1dbbfde5aacddb20a47",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://c745740084961e433456253a0a980b2a3177e48f8578c693076f220f2b25aab0",
-				"dweb:/ipfs/QmPjsUwEhTpekeSwNd61p9TDGAW5bgjPMSJx9URpgiQD1J"
+				"bzz-raw://5dc3194e964d11f97760701ecb9482946295be2d6aec359ae41b78526647b23f",
+				"dweb:/ipfs/QmT4L1CUhxDxSqtTdrX9Q3yPCy33q53pd7CQQCAGt3RsEt"
 			]
 		}
 	},

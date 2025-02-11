@@ -94,10 +94,11 @@
 	},
 	"sources": {
 		"level0/solidity/contract.sol": {
-			"keccak256": "0x2a6bd7e617c4e101d73d5f3f2de9b4a09866177a06169f04b2c63dcf40df0b25",
+			"keccak256": "0xe6222f7ef47f84764d3ff47d559bc7df123d808ae36bfc51b3fee72e88521eeb",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://f6cff7a49080bf32fc72e1037d4de60e8285b3eaa106d6529dce7551e7b930d8",
-				"dweb:/ipfs/QmeK4H6k7ukijyxZgMoL4CE2QYbVaDybPYvXy8HKbjAXLb"
+				"bzz-raw://725f1c1088b8a03c747a2f46cf4a850a9029fab38e2689295c28c56deff8912d",
+				"dweb:/ipfs/QmZjQqgpk69boFGG25bMbc2Xz6mi5xeUnG8wdw7D9s9PCu"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,11 +9,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "x",
 						"type": "uint256"
 					}
 				],
-				"name": "arr",
+				"name": "foo",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,27 +21,26 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_index",
+						"name": "_x",
 						"type": "uint256"
 					}
 				],
-				"name": "remove",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "test",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "ternary",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -58,9 +57,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity/ArrayReplaceFromEnd.sol": "ArrayReplaceFromEnd"
+			"level0/solidity/IfElse.sol": "IfElse"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -72,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity/ArrayReplaceFromEnd.sol": {
-			"keccak256": "0x16d2cd3a50ddd19bd526d1f4221f117996bc82316228da310399c3006fac13c5",
+		"level0/solidity/IfElse.sol": {
+			"keccak256": "0x901322859fb10ec58073b0f0e279d449e0442f7b87cf17f9d347522d4f7dbdc1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e8e00cb372d8269a0ec6acf18c9cf93d417206e5f9e5c5902028c387a28c0979",
-				"dweb:/ipfs/QmZF5YewfvNyqEdUtid3vtZ33pcBEghE6pUkLs2p323ppQ"
+				"bzz-raw://f26d1f85f2ccd5210c9305d6280a2469ab40cdef7d860020910e7238c6f9a23f",
+				"dweb:/ipfs/QmcppxLsQ4T5Bfa9UZyzpES5tznxxYGcJUWVEgZwhvctmU"
 			]
 		}
 	},

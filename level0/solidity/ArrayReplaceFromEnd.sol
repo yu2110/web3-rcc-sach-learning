@@ -1,4 +1,4 @@
-
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
 //Remove array element by copying last element into to the place to remove

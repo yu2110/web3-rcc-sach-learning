@@ -91,10 +91,11 @@
 	},
 	"sources": {
 		"level0/solidity/ViewAndPure.sol": {
-			"keccak256": "0x7ebbe2b40b2aa8dd13636c53a05edc47610822821371768095cbaa9ae9ef7e68",
+			"keccak256": "0x763451c6b6a5dbd1107a807a27587dbea18e8816a2c83f6a7febe6db163b9216",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://76505621da994ea9a6787ddeb6f7bc028e95764ecb1e8273a8aaf3c843050ee0",
-				"dweb:/ipfs/QmXAKw9kLKoDfbsmgnxF4NKrPfvRCFzFYBSTbE4y59ruPu"
+				"bzz-raw://669bdffe6de66fd1b47910c38ea06cc777e3b2dbbfc7f86e115c94d4924a2209",
+				"dweb:/ipfs/Qmf9thhxJcUZfioWgvoi6oAXQ3eV7FSMe29t2sxixpCiWu"
 			]
 		}
 	},

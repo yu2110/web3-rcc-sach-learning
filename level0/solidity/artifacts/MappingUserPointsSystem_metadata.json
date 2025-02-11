@@ -117,10 +117,11 @@
 	},
 	"sources": {
 		"level0/solidity/MappingUserPointsSystem.sol": {
-			"keccak256": "0x873eee7a40bed1ef7433f8d55f2341b0a05595bafa8a7c8808d57b3e3c744c6a",
+			"keccak256": "0x9faf0df7aaa8e0cb982e5606cc33a3dd3ea6ecd32f7365dd72db180452029483",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://e993f7d470e424d40aff3cd7d9c234ef4bccafdf4f63bc72398a79526cb86d6a",
-				"dweb:/ipfs/QmXJEtBC335TB86YVa1TnzjEiDAGCBLhhredwTpGdDA7mF"
+				"bzz-raw://a259affe2dc6936b3a7c8e3d9d1c0a00dc5c2f224c8df6f7d24433372aeb79bd",
+				"dweb:/ipfs/QmXREAQr8KE9FNXtTp8gMWFGioNL2Kv5TaAnGedseaxxjV"
 			]
 		}
 	},
