@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "someFunction",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity/TryCatchExample.sol": "ExternalContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity/TryCatchExample.sol": {
+			"keccak256": "0x6e3d84eb9b6ff0aff80be65f65937fbb4069e214fe77b645ad121eeb0c97db01",
+			"urls": [
+				"bzz-raw://273d4c934afc190b81a4f1cdb0ec44b3568269a470d2d8fcba0af49792041e3f",
+				"dweb:/ipfs/QmVuMkd9BF1TQv4wVg6P3mG7NWeJs6BcYubs3vkEipg7Tc"
+			]
+		}
+	},
+	"version": 1
+}

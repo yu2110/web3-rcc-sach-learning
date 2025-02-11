@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity/ControlStructures.sol": "ControlStructures"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity/ControlStructures.sol": {
+			"keccak256": "0x66c83a5b814807e7d29ed68ac9c091930f974a659b20fefdc6bee6a521f21dfc",
+			"urls": [
+				"bzz-raw://b70e003c145c144c1ccc0aa6a95c0cecb83fc926ba213c07bb2206a8f9b64cb8",
+				"dweb:/ipfs/QmaVaKpbMvWXsKncn8GeQigjrFt7MaqWwwkFagueun4BPU"
+			]
+		}
+	},
+	"version": 1
+}
