@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity/StructsDeclaration.sol": "Todos"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity/StructDeclaration.sol": {
+			"keccak256": "0xb45b46b284a93c4a509a919fa4f258e49e2b40a7e40244709daa6fc0e34e8bed",
+			"urls": [
+				"bzz-raw://1c100253a403d7b34c44eb1c9188a28917e840848be40d5d682394a7ea3e2122",
+				"dweb:/ipfs/QmTWMkxeReWziXphmMbsNMd7CzsA5AuCEYf4xVDefkogik"
+			]
+		},
+		"level0/solidity/StructsDeclaration.sol": {
+			"keccak256": "0x7a32416fa3ab50ed66bf55613eb17f152614fa5e1b4d64e482a57f9f657b2a28",
+			"urls": [
+				"bzz-raw://8f309b752000c3f64d4b9ae8e1bd3228536abe17a3c7bbd1fcd954780473f3c8",
+				"dweb:/ipfs/QmV77WL2QCUDaPg8RKxkfD73Qp91Li8heE6wMyJ7o1nQA6"
+			]
+		}
+	},
+	"version": 1
+}
