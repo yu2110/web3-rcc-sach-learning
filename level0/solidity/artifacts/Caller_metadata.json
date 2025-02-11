@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "f",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity/VariableScope.sol": "Caller"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity/VariableScope.sol": {
+			"keccak256": "0x529b64f1b29f4cd769cac813af1ab3eba431bb140cdc8a05e1a043486a88e036",
+			"urls": [
+				"bzz-raw://da80536248944d24d6b9c687d29147308a221cd735b880f7d213780f7c2503a8",
+				"dweb:/ipfs/QmWkBLwGByfP9xwR3jef26voK7wJ63FhWkE12yw6jKjoME"
+			]
+		}
+	},
+	"version": 1
+}
