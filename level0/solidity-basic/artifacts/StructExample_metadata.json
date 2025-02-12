@@ -136,7 +136,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity/StructExample.sol": "StructExample"
+			"level0/solidity-basic/StructExample.sol": "StructExample"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -150,7 +150,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity/StructExample.sol": {
+		"level0/solidity-basic/StructExample.sol": {
 			"keccak256": "0x2021388815df1cd1a85c0883f75bdb016241e112a4ef02fe917fd112c7ba3a28",
 			"license": "MIT",
 			"urls": [

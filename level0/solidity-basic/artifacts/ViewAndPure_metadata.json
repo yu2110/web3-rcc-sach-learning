@@ -76,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity/ViewAndPure.sol": "ViewAndPure"
+			"level0/solidity-basic/ViewAndPure.sol": "ViewAndPure"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -90,7 +90,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity/ViewAndPure.sol": {
+		"level0/solidity-basic/ViewAndPure.sol": {
 			"keccak256": "0x763451c6b6a5dbd1107a807a27587dbea18e8816a2c83f6a7febe6db163b9216",
 			"license": "MIT",
 			"urls": [

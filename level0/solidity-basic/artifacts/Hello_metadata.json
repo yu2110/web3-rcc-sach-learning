@@ -79,7 +79,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity/contract.sol": "Hello"
+			"level0/solidity-basic/contract.sol": "Hello"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -93,7 +93,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity/contract.sol": {
+		"level0/solidity-basic/contract.sol": {
 			"keccak256": "0xe6222f7ef47f84764d3ff47d559bc7df123d808ae36bfc51b3fee72e88521eeb",
 			"license": "MIT",
 			"urls": [

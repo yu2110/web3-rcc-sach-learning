@@ -150,7 +150,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity/value.sol": "ValueType"
+			"level0/solidity-basic/Value.sol": "ValueType"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -164,7 +164,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity/value.sol": {
+		"level0/solidity-basic/Value.sol": {
 			"keccak256": "0xe05507a6c7255eb569e29097024ef54b5d70a1ba71f3f1dbbfde5aacddb20a47",
 			"license": "MIT",
 			"urls": [
