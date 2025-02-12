@@ -7,11 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
 				"name": "name",
 				"outputs": [
 					{
@@ -50,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity_basic/Constructor.sol": "D"
+			"level0/solidity_basic/Constructor.sol": "B"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},

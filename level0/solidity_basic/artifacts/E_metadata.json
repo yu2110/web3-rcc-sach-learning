@@ -50,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity_basic/Constructor.sol": "D"
+			"level0/solidity_basic/Constructor.sol": "E"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},

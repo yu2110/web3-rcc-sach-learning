@@ -8,6 +8,43 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "create",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -28,6 +65,37 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "toggleCommpleted",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "updateText",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -38,12 +106,13 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "You can define your own type by creating a struct. They are useful for grouping together related data. Structs can be declared outside of a contract and imported in another contract.",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity/StructsDeclaration.sol": "Todos"
+			"level0/solidity_basic/Structs.sol": "Todos"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -57,20 +126,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity/StructDeclaration.sol": {
-			"keccak256": "0xeebf8c31471ba16a5d521c120c0090aa6579454e0e0915b78d408ed09fb068ac",
+		"level0/solidity_basic/Structs.sol": {
+			"keccak256": "0x218d86a2dcf0cf417ed5a31e2a7d140dc0d8320c862f99f1e242dce0d9ace684",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://90d38a8b3f5e77ca314b85620ba4422dbf570349c03bcbb3aed2eb4e79db644c",
-				"dweb:/ipfs/QmZLpxn4jHneF6JJbtH7j5K1uCGEMfcoAPZJFD8YrxL3pL"
-			]
-		},
-		"level0/solidity/StructsDeclaration.sol": {
-			"keccak256": "0x2308d96548d4678ecde55139b51f33a074da10cd68a393900e2052ace3a5e1a9",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://c97c9cce22143cbe297d0f7d28c0e4e251713f71192877613ac50e420ef420e1",
-				"dweb:/ipfs/QmUARumEJJnYVRsPxejnnv2kEu9awCFBMxvNQUBrgYA9A7"
+				"bzz-raw://f23db73e793576b5e6fc8da9ba5985deb32b11492fc658a28310348d8377e584",
+				"dweb:/ipfs/QmcZ9WN838qvrqv1r9P4hcGUgf8UuXz4JNX8wDF5T4LqiW"
 			]
 		}
 	},

@@ -6,22 +6,15 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "_text",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
@@ -50,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity_basic/Constructor.sol": "D"
+			"level0/solidity_basic/Constructor.sol": "Y"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
