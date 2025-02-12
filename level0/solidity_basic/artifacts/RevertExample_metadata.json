@@ -6,21 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getValue",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "value",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "willRevert",
+				"name": "checkValue",
 				"outputs": [],
 				"stateMutability": "pure",
 				"type": "function"
@@ -39,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity_basic/TryCatchExample1.sol": "ExternalContract"
+			"level0/solidity_basic/RevertExample.sol": "RevertExample"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -53,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity_basic/TryCatchExample1.sol": {
-			"keccak256": "0xe15812056d421d508f232643d50ce58eb8910ffae5a842bfefcade641f6b93c0",
+		"level0/solidity_basic/RevertExample.sol": {
+			"keccak256": "0xb646976f2dcf176e2944ab7c840247fdbc8a2df2c417faeb28f98aad112d20d1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://20cffade6a7b46dcd6e1bc8102524c58854fd1b07a5712f7903616cb753d71a4",
-				"dweb:/ipfs/Qmb9NsVhYUiBvcwv4vHtVL9hz3nMvduXmWNxGGDteK1Eni"
+				"bzz-raw://df920d6d84208e6483abc221d126115c844ac6e6810e65712b46e5e1b6963ac1",
+				"dweb:/ipfs/QmZW5tz7hud9mWznNFj2FVqhRepXUpFvKG84fjrmVJGGxu"
 			]
 		}
 	},

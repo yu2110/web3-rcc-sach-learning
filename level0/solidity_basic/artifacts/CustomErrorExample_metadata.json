@@ -11,18 +11,24 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "caller",
+						"type": "address"
+					}
+				],
+				"name": "Unauthorized",
+				"type": "error"
+			},
+			{
 				"inputs": [],
-				"name": "tryCatchTest",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -30,14 +36,8 @@
 			},
 			{
 				"inputs": [],
-				"name": "tryCatchWithRevert",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
+				"name": "restrictedFunction",
+				"outputs": [],
 				"stateMutability": "view",
 				"type": "function"
 			}
@@ -55,7 +55,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity_basic/TryCatchExample1.sol": "TryCatchExample"
+			"level0/solidity_basic/CustomErrorExample.sol": "CustomErrorExample"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -69,12 +69,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity_basic/TryCatchExample1.sol": {
-			"keccak256": "0xe15812056d421d508f232643d50ce58eb8910ffae5a842bfefcade641f6b93c0",
+		"level0/solidity_basic/CustomErrorExample.sol": {
+			"keccak256": "0x70805caf3a1c7dc631c85bbcfcad299e838345927d0068bf8fbe9b84a843bd7e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://20cffade6a7b46dcd6e1bc8102524c58854fd1b07a5712f7903616cb753d71a4",
-				"dweb:/ipfs/Qmb9NsVhYUiBvcwv4vHtVL9hz3nMvduXmWNxGGDteK1Eni"
+				"bzz-raw://b253eeeb33a0dce9dd8aaeb092c9552d226950e6958ee53c762ff1dd3065c8e0",
+				"dweb:/ipfs/QmadM1Bb8FGLPWmPywx1wMPvku4pE9TfsUkuUU8XjGE6Rk"
 			]
 		}
 	},

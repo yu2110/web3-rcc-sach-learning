@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getValue",
+				"name": "balance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,14 +15,20 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "willRevert",
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "sendHalf",
 				"outputs": [],
-				"stateMutability": "pure",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity_basic/TryCatchExample1.sol": "ExternalContract"
+			"level0/solidity_basic/ErrorHandlingExample.sol": "ErrorHandlingExample"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -53,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity_basic/TryCatchExample1.sol": {
-			"keccak256": "0xe15812056d421d508f232643d50ce58eb8910ffae5a842bfefcade641f6b93c0",
+		"level0/solidity_basic/ErrorHandlingExample.sol": {
+			"keccak256": "0x4f4baea1547332059a6245c31bffd3508eb1f8ef40e4386d3d87d06480a82d87",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://20cffade6a7b46dcd6e1bc8102524c58854fd1b07a5712f7903616cb753d71a4",
-				"dweb:/ipfs/Qmb9NsVhYUiBvcwv4vHtVL9hz3nMvduXmWNxGGDteK1Eni"
+				"bzz-raw://af50b8d38e3d0eda672fc714ee6833124b176af27c36ebdaf66dd90e79100927",
+				"dweb:/ipfs/QmcSUFRPMBSGQEE55ky8fZvZC7Zz1Gdv9c4Zsmwpf3zs5F"
 			]
 		}
 	},
