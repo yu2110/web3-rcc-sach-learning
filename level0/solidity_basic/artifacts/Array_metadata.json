@@ -161,7 +161,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity/Array.sol": "Array"
+			"level0/solidity-basic/Array.sol": "Array"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -175,7 +175,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity/Array.sol": {
+		"level0/solidity-basic/Array.sol": {
 			"keccak256": "0xe25d0bfe3c82619d66b63dccfc892a2193d55442c58bc655de66425301bb9c48",
 			"license": "MIT",
 			"urls": [
