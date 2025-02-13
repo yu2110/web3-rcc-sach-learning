@@ -6,19 +6,15 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "add",
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "val",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,7 +22,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -43,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity_super/LibrarySafeMath.sol": "SafeMath"
+			"level0/solidity_basic/DataLocations.sol": "TestStorage"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -57,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity_super/LibrarySafeMath.sol": {
-			"keccak256": "0x5e0a57548750417093dd77d1a172ea2bc004e572a146604720f7f90826a23512",
+		"level0/solidity_basic/DataLocations.sol": {
+			"keccak256": "0x0dbce8e89e44391f379e0504ffdf3c873866df9b4b0ed60179ed746872bed30a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://124d04c53a01448ed4c6106efefe94b3d40f0fdbc8805315153cb1bea9717249",
-				"dweb:/ipfs/QmcyDMTwpk9crJkP6DpK9p5miETDrjRDvqeHF36zwFni4U"
+				"bzz-raw://83120a313cfca6a9a8e75ce36e30a22b530ac47278b73a12c433258c3d4a4971",
+				"dweb:/ipfs/QmWN2DVPKkiq4PRe7pgjo8fE1EU15oLqTtWuYAVRsBKTQQ"
 			]
 		}
 	},

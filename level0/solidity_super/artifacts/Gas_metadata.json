@@ -7,32 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "doWelcoming",
+				"name": "forever",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "num",
+				"name": "i",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "text",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -47,12 +34,13 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "You pay gas spent * gas price amount of ether, where gas is a unit of computation gas spent is the total amount of gas used in a transaction gas price is how much ether you are willing to pay per gas gas limit (max amount of gas you're willing to use for your transaction, set by you) block gas limit (max amount of gas allowed in a block, set by the network)",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"level0/solidity_basic/Variable.sol": "Variables"
+			"level0/solidity_super/Gas.sol": "Gas"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -66,12 +54,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"level0/solidity_basic/Variable.sol": {
-			"keccak256": "0xd43b029093e6c1ae41c65d6da769761d29fdd17626c09d59104620f9ddbeab63",
+		"level0/solidity_super/Gas.sol": {
+			"keccak256": "0x2d7a5ed4b4399c9fcbb89e0e47cded3a2881306204767ebac8a2c19886e46ecb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1732a2e1080de0e2ff1f6f3dd32b3581783be7a4a25fe876697248dfc8c6d5e9",
-				"dweb:/ipfs/QmXX8nkp9yBoAxrsgfYf4rD2SH7R6QZwb3JbMYWNtRiv7P"
+				"bzz-raw://eea7d148381794a50a9ec46711c278f4788354e7d748edb8d919b768c75a1674",
+				"dweb:/ipfs/QmVyNLF2sNnu9yTFTzNro3jtmqt5Uadt7jZD1ZwumK8gr2"
 			]
 		}
 	},
