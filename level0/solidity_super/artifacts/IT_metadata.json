@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Solidity 中的接口具有以下限制： 无法继承其他合约或接口：接口不能扩展其他合约或接口。 无法定义构造函数：接口不允许定义任何构造函数，因为它不能有内部状态。 无法定义状态变量：接口不能有状态变量，因为它不存储数据。 无法定义结构体或枚举：接口不能包含结构体或枚举。",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity_super/Interfaces.sol": "IT"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity_super/Interfaces.sol": {
+			"keccak256": "0xca9dec31f0b50702f11af67c092253fe5f8a9722e4e0830ca74fc9614fcb0bc7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://270a178eaee48c0c4bb97a79d0a2baa94a1923ccfd9c2a48b48a25f85e970849",
+				"dweb:/ipfs/QmYCNcMp5AWd8sANFVYej1FpbiCw52VUBu2gvB8eQFYLRz"
+			]
+		}
+	},
+	"version": 1
+}
