@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity_super/Library.sol": "Search"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity_super/Library.sol": {
+			"keccak256": "0xde1ce9c3f8744bd841c507558af62444b728d33fe127bea2a6a2e14d1cf579f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c0998cccfb66ff4b6a0b8d75515feec254d26e7da1746b5bc247982689cbe3d",
+				"dweb:/ipfs/QmYM5w1ekt4YDG22L6cG3emYPtcCLJVfsuDHQroDtT5DN5"
+			]
+		},
+		"level0/solidity_super/LibrarySafeMath.sol": {
+			"keccak256": "0x5e0a57548750417093dd77d1a172ea2bc004e572a146604720f7f90826a23512",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://124d04c53a01448ed4c6106efefe94b3d40f0fdbc8805315153cb1bea9717249",
+				"dweb:/ipfs/QmcyDMTwpk9crJkP6DpK9p5miETDrjRDvqeHF36zwFni4U"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "库仅由函数组成，不能定义状态变量。 库不能直接修改 msg.sender 或 this，因为它们没有自己独立的上下文。 库函数可以是内部函数，也可以是公共或外部函数，使用不同的函数类型决定库的使用方式",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity_super/Library.sol": "SafeMath"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity_super/Library.sol": {
+			"keccak256": "0xa50b786bef2e3ecdc6889050d22b0907b1428926ab8cbb5ce859b14dd7696e0d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6911b9937de8d0f2a53fed4fe7472d682dc9e5bc11dc7ca1339eea002e5b958a",
+				"dweb:/ipfs/QmXqVhZWxbSdEiBNmNr2hUddMMjjmskuVbMUTV3QUUsNQC"
+			]
+		}
+	},
+	"version": 1
+}
