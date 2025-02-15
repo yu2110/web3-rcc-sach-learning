@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity_contract/IERC777Recipient.sol": "Merit"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity_contract/IERC777Recipient.sol": {
+			"keccak256": "0xe42064efd221a986c7c73729f0190ab51ebd8a815384a9f53f73147bf2f3e4c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ed5777bd87e420ab2c8267c663709f41a85067f995b6f148413cbd1bd34cf914",
+				"dweb:/ipfs/QmWKjF9BzTEJ2mfK8o5LrgLv6fA79qPMuLrKWd3FhY3sYh"
+			]
+		}
+	},
+	"version": 1
+}
