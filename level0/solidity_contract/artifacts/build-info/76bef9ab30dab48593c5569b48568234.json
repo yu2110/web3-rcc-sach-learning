@@ -1,0 +1,69 @@
+{
+	"id": "76bef9ab30dab48593c5569b48568234",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"level0/solidity_contract/ERC1155Example.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.20; \n\n// import \"@openzeppelin/contracts/token/ERC1155/ERC1155.sol\";\n// contract MyGameAssets is ERC1155 {\n//     uint256 public constant GOLD = 0;\n//     uint256 public constant SILVER = 1;\n//     uint256 public constant SWORD = 2;\n//     uint256 public constant SHIELD = 3;\n//     constructor() public ERC1155(\"https://mygame.io/api/token/{id}.json\") {\n//         _mint(msg.sender, GOLD, 1000, \"\");\n//         _mint(msg.sender, SILVER, 5000, \"\");\n//         _mint(msg.sender, SWORD, 10, \"\");\n//         _mint(msg.sender, SHIELD, 5, \"\");\n//     }\n// }\n\n/**\nGOLD 和 SILVER 表示同质化代币，每种代币有不同的数量。\nSWORD 和 SHIELD 表示非同质化代币，每个代币都是独特的且数量有限。\n*/"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"level0/solidity_contract/ERC1155Example.sol": {
+				"ast": {
+					"absolutePath": "level0/solidity_contract/ERC1155Example.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".20"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:24:0"
+						}
+					],
+					"src": "32:745:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
