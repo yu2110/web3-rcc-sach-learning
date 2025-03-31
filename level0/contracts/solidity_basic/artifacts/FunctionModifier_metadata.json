@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "locked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Modifiers are code that can be run before and / or after a function call. Modifiers can be used to: Restrict access Validate inputs Guard against reentrancy hack",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity_basic/FunctionModifier.sol": "FunctionModifier"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity_basic/FunctionModifier.sol": {
+			"keccak256": "0x33b05f0f269a8a867e7ad9087d2f3f925c788c541ebbcc5ee42a8f66fb9c1594",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff58e26f831f198875f71dc06a3711aa4b6617e7e371d2c08ccd5e0d20472714",
+				"dweb:/ipfs/QmPJiSu69tUGtAiqU1AuW8k4Ct3EAjwS6CX4ir8gzP8Bj9"
+			]
+		}
+	},
+	"version": 1
+}

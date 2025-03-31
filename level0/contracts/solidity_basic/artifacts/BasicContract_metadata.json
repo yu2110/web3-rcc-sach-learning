@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity_basic/ContractExample.sol": "BasicContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity_basic/ContractExample.sol": {
+			"keccak256": "0x0f7819590a34cd8c108cd7af5e3a3dc17f0768b6161bd87d20b6a18ed0c38132",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://26867f042198bae5ce30f5fc50ec44a5ec195447d3ffd213b2a0dcac15431f50",
+				"dweb:/ipfs/QmNhp2HkRHfMZQiWdxvv3E8pseAAVsi9qPwHe4HJ3p1vrs"
+			]
+		}
+	},
+	"version": 1
+}

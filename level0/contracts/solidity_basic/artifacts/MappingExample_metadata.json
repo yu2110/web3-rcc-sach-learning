@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newBalance",
+						"type": "uint256"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity/MappingExample.sol": "MappingExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity/MappingExample.sol": {
+			"keccak256": "0x3abd0c44785edf2e6a252a91308849f9c4110e1a49018d71c9370852634420be",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://510ec080c41ab4ea54a7ac82efcd7c53054687e3560cdcda561ef86d17971418",
+				"dweb:/ipfs/QmYqyUWX1RmchJrXF1rHDEZDCwaBv5RAmVkSaTJ6PTXRs1"
+			]
+		}
+	},
+	"version": 1
+}

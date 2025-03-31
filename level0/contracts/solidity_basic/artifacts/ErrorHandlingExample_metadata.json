@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "sendHalf",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity_basic/ErrorHandlingExample.sol": "ErrorHandlingExample"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity_basic/ErrorHandlingExample.sol": {
+			"keccak256": "0x4f4baea1547332059a6245c31bffd3508eb1f8ef40e4386d3d87d06480a82d87",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://af50b8d38e3d0eda672fc714ee6833124b176af27c36ebdaf66dd90e79100927",
+				"dweb:/ipfs/QmcSUFRPMBSGQEE55ky8fZvZC7Zz1Gdv9c4Zsmwpf3zs5F"
+			]
+		}
+	},
+	"version": 1
+}

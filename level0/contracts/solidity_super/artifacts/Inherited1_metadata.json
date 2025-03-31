@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/solidity_super/Inherit.sol": "Inherited1"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/solidity_super/Inherit.sol": {
+			"keccak256": "0x9ce427a31641492572830ddbc305324037221ae25f559e3d60847232eb96297c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8b3eb2436e0f66b844ecc664b7a6cc6683e2d447e4659392b271b744e8f4dd85",
+				"dweb:/ipfs/QmcfWrc7RfDcCdiVFA9zF58h389dDLnZyFs7ksoU6GEwYd"
+			]
+		}
+	},
+	"version": 1
+}
