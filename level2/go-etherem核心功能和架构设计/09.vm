@@ -1,0 +1,17 @@
+vm 使用了 stack.go 里面的对象 Stack 来作为虚拟机的堆栈。memory 代表了虚拟机里面使用的内存对象。
+
+jumptable. 是一个 [256]operation 的数据结构. 每个下标对应了一种指令, 使用 operation 来存储了指令对应的处理逻辑, gas 消耗, 堆栈验证方法, memory 使用的大小等功能.
+
+instruction.go
+gas_table.go
+interpreter.go 解释器
+
+contract.go  contract 代表了以太坊 state database 里面的一个合约
+
+evm.go
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+RLP  recursive length prefix  以太坊中序列化方法，所有对象都会用此方法序列化字节数组。
+
+typecache.go 通过自身类型找到编码器和解码器函数
+
+
+encode.go编码器
+
+encbuf
+
+decode.go 解码器
+
+stream结构解析
+

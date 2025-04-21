@@ -1,0 +1,24 @@
+go-ethereum 所有的数据存储在 levelDB 
+
+特点：
+
+key 和 value 都是任意长度的字节数组；
+提供的基本操作接口：Put()、Delete()、Get()、Batch()；
+支持批量操作以原子操作进行；
+
+限制：
+
+非关系型数据模型（NoSQL），不支持 sql 语句，也不支持索引；
+一次只允许一个进程访问一个特定的数据库；
+
+interface.go
+
+Put， Get， Has， Delete 等基本操作，levelDB 是不支持 SQL 的，基本可以理解为数据结构里面的 Map。
+memory_database.go   封装了一个内存的 Map 结构。然后使用了一把锁来对多线程进行资源的保护。
+
+
+database.go  这个就是实际 ethereum 客户端使用的代码， 封装了 levelDB 的接口。
+
+Metrics 的处理
+
+

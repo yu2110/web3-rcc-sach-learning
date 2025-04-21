@@ -1,0 +1,47 @@
+
+
+go ethereum 的 eth 目录是以太坊服务的实现。 以太坊协议是通过 node 的 Register 方法注入
+
+区块同步
+
+如果是自己挖的矿。通过 goroutine minedBroadcastLoop()来进行广播。
+如果是接收到其他人的区块广播，(NewBlockHashesMsg/NewBlockMsg),是否 fetcher 会通知的 peer？ TODO
+goroutine syncer()中会定时的同 BestPeer()来同步信息。
+交易同步
+
+新建立连接。 把 pending 的交易发送给他。
+本地发送了一个交易，或者是接收到别人发来的交易信息。 txpool 会产生一条消息，消息被传递到 txCh 通道。
+ 然后被 goroutine txBroadcastLoop()处理， 发送给其他不知道这个交易的 peer。
+
+fetcher 包含基于块通知的同步。
+
+一共存在两个定时器。fetchTimer 和 completeTimer，分别负责获取区块头和获取区块 body。
+
+状态转换 announced --fetchTimer(fetch header)---> fetching --(headerFilter)--> fetched --completeTimer(fetch body)-->completing --(bodyFilter)--> enqueue --task.done--> forgetHash
+
+queue 给 downloader 提供了调度功能和限流的功能
+
+
+peer 模块包含了 downloader 使用的 peer 节点，封装了吞吐量，是否空闲，并记录了之前失败的信息。
+
+peerSet
+
+以太坊的区块头中包含了一个叫做 logsBloom 的区域。 这个区域存储了当前区块中所有的收据的日志的布隆过滤器，一共是 2048 个 bit。也就是 256 个字节。
+
+ChainIndexer 和 BloomIndexer
+
+
+filter 源码包主要实现了两个功能，
+
+提供了 发布订阅模式的 filter RPC。用来给 rpc 客户端提供实时的交易，区块，日志等的过滤
+提供了 基于 bloomIndexer 的日志过滤模式，这种模式下，可以快速的对大量区块执行布隆过滤操作。 还提供了历史的日志的过滤操作。
+
+
+
+
+
+
+
+
+ 
+
