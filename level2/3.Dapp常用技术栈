@@ -1,0 +1,74 @@
+
+1.react +next.js
+react推荐学习:https://zh-hans.react.dev/learn 
+next.js推荐学习:https://www.nextjs.cn/docs
+
+
+2.ethers.js
+
+npm install ethers --save
+安装 Code Runner 这个插件
+Provider 读取合约 发送ETH 合约交互  检索事件 监听合约  过滤器  Bigint转换
+ethers.js 将 eth_call 封装在 staticCall 方法中，方便开发者模拟交易的结果，并避免发送可能失败的交易。
+ether.js 识别一个合约是否为 ERC721 标准
+
+可以通过 ERC165 来检查一个智能合约是不是支持了 ERC721 的接口。
+
+calldata
+
+HD 钱包（Hierarchical Deterministic Wallet，多层确定性钱包）是一种数字钱包 
+
+
+IP32，BIP44，和BIP39
+BIP39 让用户能以一些人类可记忆的助记词的方式保管私钥
+
+mempool（交易内存池）
+MEV（Maximal Extractable Value，最大可提取价值）
+未决交易是用户发出但没被矿工打包上链的交易，在 mempool（交易内存池）中出现
+
+MetaMask 签名授权后完成登录功能
+
+3. wagmi  rainbowkit
+
+Wagmi 是专为以太坊量身定制的 React Hook 集合
+
+
+Wagmi 是 We are gonna make it 的缩写，代表“我们将成功”
+npm install wagmi ethers
+//或
+yarn add wagmi ethers
+
+
+RainbowKit 是一个用几行代码构建 Connect Wallet UI 的 React 组件库。 RainbowKit 支持许多钱包，包括 Metamask、Rainbow、Coinbase Wallet、WalletConnect 等等。
+
+# With NPM
+npm install @rainbow-me/rainbowkit wagmi ethers
+# With yarn
+yarn add @rainbow-me/rainbowkit wagmi ethers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.wagmi  与rainbowkit

@@ -1,0 +1,57 @@
+
+
+1.Infura
+        是 Consensys(小狐狸钱包母公司)开发的区块链基础设施，帮助用户/开发者更好的与以太坊区块链交互.
+        为用户提供对以太坊和 IPFS 网络的即时、可扩展的 API 访问
+网址：infura.io
+       可以申请免费的 Layer2 rpc 节点，包括 Polygon，Optimism 和 Arbitrum，但是需要绑定 visa 卡
+
+
+
+
+2.Ganache
+
+  ganache 是一个以太坊区块链“模拟器”，在开发过程中 “模拟” 生产环境、方便的获取合约调用的上下文
+    开箱即用，快速启动一个 EVM 区块链网络（可以设置 miner、出块时间）；
+    方便的 fork（分叉）已经存在的区块链网络（无需等待区块同步）；
+    使用 console.log 在 Solidity 开发过程中方便的调试，；
+    快进时间（Fast-forward time），模拟智能合约在未来时间的状态；
+    模拟任何一个账户（你可以无需私钥模拟环境中使用任意用户的 Token）；
+
+    npm install ganache --global
+    ganache  //启动 GANACHE
+
+    //Fork 主网启动
+    ganache -f https://eth-mainnet.alchemyapi.io/v2/YOUR_API_KEY
+
+
+3. Alchemy
+Alchemy 超级节点是 Ethereum、Polygon、Solana、Arbitrum、Optimism、Flow 和 Crypto.org 使用最广泛的区块链 API
+
+Alchemy 支持：ETH、Polygon、Solana、Arbitrum、Optimism
+
+Infura 支持：ETH、ETH2、IPFS、Filecoin
+
+
+4.Hardhat 
+
+Hardhat 是以太坊最流行的开发环境，它可以帮你编译和部署智能合约，并且提供了 Hardhat Network 支持本地测试和运行 Solidity
+npm install --save-dev hardhat
+
+npm install --save-dev @nomicfoundation/hardhat-toolbox  //安装插件
+
+npx hardhat compile  //编译合约
+
+npx hardhat test 
+//部署合约
+npx hardhat run --network hardhat  scripts/deploy.js
+
+
+
+
+
+
+
+
+
+
